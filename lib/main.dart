@@ -4,16 +4,21 @@ import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  
+  String title,url;
+  bool isLoading=true;
+  final _key = UniqueKey();
+
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(routes: {
       "/": (_) => new WebviewScaffold(
         url: "https://awais-react-portfolio.herokuapp.com/",
-//        appBar: new AppBar(
-//          title: new Text("WebView"),
-//        ),// AppBar
-      ) // WebviewScaffold
-    }); // MaterialApp
+        hidden: true, 
+        initialChild: Container( 
+          child:Center(child: Text("Loading"),) 
+        ),
+      )
+    });
   }
 }
