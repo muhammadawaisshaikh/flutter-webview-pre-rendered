@@ -1,6 +1,3 @@
-# flutter-webview-pre-rendered
-flutter webview with pre-rendering capability
-
 # 💬 Flutter Webview Pre Rendered - Opensource flutter app built with Love ❤️
 
 This project version is 1.0.0
