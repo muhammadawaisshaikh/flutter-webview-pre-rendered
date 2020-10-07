@@ -4,7 +4,6 @@ This project version is 1.0.0
 
 # 👉 Want to Contribute? ✨ 🔋
 
-# Contributing to Chatify
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
 - Reporting a bug
